@@ -1,0 +1,27 @@
+[project]
+name = "SCIML"
+version = "0.1.0"
+description = "SCIML"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pytest>=8.3.5",
+    "ruff>=0.8.2",
+    "tach>=0.16.3",
+]
+
+
+
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {} # "QR1" = "models/QR1/", "QR2" = "models/QR2/"
+packages = [] # ["QR1", "QR2"]
+
+
+
+[tool.setuptools.package-data]
+"*" = ["*.py", "*.pyi", "*.c", "*.h", "*.cpp", "*.hpp"]
