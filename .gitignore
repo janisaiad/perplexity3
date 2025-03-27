@@ -35,3 +35,10 @@ pip-wheel-metadata/
 *.py[cod]
 # End of Selection
 *.pyc
+
+
+# Arthur 
+# environement virtuel 
+.venv
+# sciml
+SCIML.egg-info
